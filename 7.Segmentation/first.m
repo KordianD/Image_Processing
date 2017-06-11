@@ -12,11 +12,6 @@ stos = zeros(10000, 2);
 visited = zeros(img_x, img_y);
 segmented = zeros(img_x, img_y);
 
-% visited(:, 1) = 1;
-% visited(:, img_y) = 1;
-% visited(1, :) = 1;
-% visited(img_x, :) = 1;
-
 [y_set, x_set] = ginput(1); 
 x_set = floor(x_set);
 y_set = floor(y_set); 
