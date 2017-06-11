@@ -20,7 +20,8 @@ stos(1,1) = x_set;
 stos(1,2) = y_set;
 i = 1; 
 
-visited(x_set,y_set) = 1; segmented(x_set,y_set) = 1;
+visited(x_set,y_set) = 1;
+segmented(x_set,y_set) = 1;
 threshold = 50;
 
 while i ~= 0
